@@ -1,0 +1,195 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 04/05/2018 05:05
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-web:before { content: "\f100"; }
+.flaticon-calendar:before { content: "\f101"; }
+.flaticon-interface-4:before { content: "\f102"; }
+.flaticon-interface-3:before { content: "\f103"; }
+.flaticon-google-plus-symbol:before { content: "\f104"; }
+.flaticon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f105"; }
+.flaticon-clock:before { content: "\f106"; }
+.flaticon-interface-2:before { content: "\f107"; }
+.flaticon-folder:before { content: "\f108"; }
+.flaticon-technology-1:before { content: "\f109"; }
+.flaticon-file:before { content: "\f10a"; }
+.flaticon-signs-1:before { content: "\f10b"; }
+.flaticon-square-1:before { content: "\f10c"; }
+.flaticon-mark-2:before { content: "\f10d"; }
+.flaticon-shapes-2:before { content: "\f10e"; }
+.flaticon-layers:before { content: "\f10f"; }
+.flaticon-favorite-1:before { content: "\f110"; }
+.flaticon-round:before { content: "\f111"; }
+.flaticon-arrows-6:before { content: "\f112"; }
+.flaticon-profile-2:before { content: "\f113"; }
+.flaticon-profile-1:before { content: "\f114"; }
+.flaticon-shapes-1:before { content: "\f115"; }
+.flaticon-search:before { content: "\f116"; }
+.flaticon-favorite:before { content: "\f117"; }
+.flaticon-interface-1:before { content: "\f118"; }
+.flaticon-multimedia-1:before { content: "\f119"; }
+.flaticon-arrows-5:before { content: "\f11a"; }
+.flaticon-arrows-4:before { content: "\f11b"; }
+.flaticon-arrows-3:before { content: "\f11c"; }
+.flaticon-arrows-2:before { content: "\f11d"; }
+.flaticon-signs:before { content: "\f11e"; }
+.flaticon-multimedia:before { content: "\f11f"; }
+.flaticon-technology:before { content: "\f120"; }
+.flaticon-commerce-1:before { content: "\f121"; }
+.flaticon-shapes:before { content: "\f122"; }
+.flaticon-library:before { content: "\f123"; }
+.flaticon-arrows:before { content: "\f124"; }
+.flaticon-arrows-1:before { content: "\f125"; }
+.flaticon-social-4:before { content: "\f126"; }
+.flaticon-profile:before { content: "\f127"; }
+.flaticon-mark-1:before { content: "\f128"; }
+.flaticon-square:before { content: "\f129"; }
+.flaticon-tool-1:before { content: "\f12a"; }
+.flaticon-social-3:before { content: "\f12b"; }
+.flaticon-social-media:before { content: "\f12c"; }
+.flaticon-tool:before { content: "\f12d"; }
+.flaticon-sheet:before { content: "\f12e"; }
+.flaticon-black-2:before { content: "\f12f"; }
+.flaticon-circle-1:before { content: "\f130"; }
+.flaticon-shield:before { content: "\f131"; }
+.flaticon-approve-circular-button:before { content: "\f132"; }
+.flaticon-flash:before { content: "\f133"; }
+.flaticon-pinterest-logotype:before { content: "\f134"; }
+.flaticon-access-denied:before { content: "\f135"; }
+.flaticon-twitter-logo-silhouette:before { content: "\f136"; }
+.flaticon-music:before { content: "\f137"; }
+.flaticon-interface:before { content: "\f138"; }
+.flaticon-mark:before { content: "\f139"; }
+.flaticon-home:before { content: "\f13a"; }
+.flaticon-paper:before { content: "\f13b"; }
+.flaticon-gear:before { content: "\f13c"; }
+.flaticon-switch:before { content: "\f13d"; }
+.flaticon-bell:before { content: "\f13e"; }
+.flaticon-commerce:before { content: "\f13f"; }
+.flaticon-case:before { content: "\f140"; }
+.flaticon-social-2:before { content: "\f141"; }
+.flaticon-social-1:before { content: "\f142"; }
+.flaticon-squares:before { content: "\f143"; }
+.flaticon-black-1:before { content: "\f144"; }
+.flaticon-black:before { content: "\f145"; }
+.flaticon-information-web-circular-button-symbol:before { content: "\f146"; }
+.flaticon-circle:before { content: "\f147"; }
+.flaticon-social:before { content: "\f148"; }
+.flaticon-time:before { content: "\f149"; }
+.flaticon-view:before { content: "\f14a"; }
+.flaticon-right-arrow:before { content: "\f14b"; }
+.flaticon-left-arrow:before { content: "\f14c"; }
+.flaticon-left-quote-mark:before { content: "\f14d"; }
+
+    $font-Flaticon-web: "\f100";
+    $font-Flaticon-calendar: "\f101";
+    $font-Flaticon-interface-4: "\f102";
+    $font-Flaticon-interface-3: "\f103";
+    $font-Flaticon-google-plus-symbol: "\f104";
+    $font-Flaticon-facebook-placeholder-for-locate-places-on-maps: "\f105";
+    $font-Flaticon-clock: "\f106";
+    $font-Flaticon-interface-2: "\f107";
+    $font-Flaticon-folder: "\f108";
+    $font-Flaticon-technology-1: "\f109";
+    $font-Flaticon-file: "\f10a";
+    $font-Flaticon-signs-1: "\f10b";
+    $font-Flaticon-square-1: "\f10c";
+    $font-Flaticon-mark-2: "\f10d";
+    $font-Flaticon-shapes-2: "\f10e";
+    $font-Flaticon-layers: "\f10f";
+    $font-Flaticon-favorite-1: "\f110";
+    $font-Flaticon-round: "\f111";
+    $font-Flaticon-arrows-6: "\f112";
+    $font-Flaticon-profile-2: "\f113";
+    $font-Flaticon-profile-1: "\f114";
+    $font-Flaticon-shapes-1: "\f115";
+    $font-Flaticon-search: "\f116";
+    $font-Flaticon-favorite: "\f117";
+    $font-Flaticon-interface-1: "\f118";
+    $font-Flaticon-multimedia-1: "\f119";
+    $font-Flaticon-arrows-5: "\f11a";
+    $font-Flaticon-arrows-4: "\f11b";
+    $font-Flaticon-arrows-3: "\f11c";
+    $font-Flaticon-arrows-2: "\f11d";
+    $font-Flaticon-signs: "\f11e";
+    $font-Flaticon-multimedia: "\f11f";
+    $font-Flaticon-technology: "\f120";
+    $font-Flaticon-commerce-1: "\f121";
+    $font-Flaticon-shapes: "\f122";
+    $font-Flaticon-library: "\f123";
+    $font-Flaticon-arrows: "\f124";
+    $font-Flaticon-arrows-1: "\f125";
+    $font-Flaticon-social-4: "\f126";
+    $font-Flaticon-profile: "\f127";
+    $font-Flaticon-mark-1: "\f128";
+    $font-Flaticon-square: "\f129";
+    $font-Flaticon-tool-1: "\f12a";
+    $font-Flaticon-social-3: "\f12b";
+    $font-Flaticon-social-media: "\f12c";
+    $font-Flaticon-tool: "\f12d";
+    $font-Flaticon-sheet: "\f12e";
+    $font-Flaticon-black-2: "\f12f";
+    $font-Flaticon-circle-1: "\f130";
+    $font-Flaticon-shield: "\f131";
+    $font-Flaticon-approve-circular-button: "\f132";
+    $font-Flaticon-flash: "\f133";
+    $font-Flaticon-pinterest-logotype: "\f134";
+    $font-Flaticon-access-denied: "\f135";
+    $font-Flaticon-twitter-logo-silhouette: "\f136";
+    $font-Flaticon-music: "\f137";
+    $font-Flaticon-interface: "\f138";
+    $font-Flaticon-mark: "\f139";
+    $font-Flaticon-home: "\f13a";
+    $font-Flaticon-paper: "\f13b";
+    $font-Flaticon-gear: "\f13c";
+    $font-Flaticon-switch: "\f13d";
+    $font-Flaticon-bell: "\f13e";
+    $font-Flaticon-commerce: "\f13f";
+    $font-Flaticon-case: "\f140";
+    $font-Flaticon-social-2: "\f141";
+    $font-Flaticon-social-1: "\f142";
+    $font-Flaticon-squares: "\f143";
+    $font-Flaticon-black-1: "\f144";
+    $font-Flaticon-black: "\f145";
+    $font-Flaticon-information-web-circular-button-symbol: "\f146";
+    $font-Flaticon-circle: "\f147";
+    $font-Flaticon-social: "\f148";
+    $font-Flaticon-time: "\f149";
+    $font-Flaticon-view: "\f14a";
+    $font-Flaticon-right-arrow: "\f14b";
+    $font-Flaticon-left-arrow: "\f14c";
+    $font-Flaticon-left-quote-mark: "\f14d";

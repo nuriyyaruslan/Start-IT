@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Start IT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon.png">
+  <link rel="stylesheet" type="text/css" href="assets/lib/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/font/flaticon/flaticon.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/lib/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/lib/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+</head>
+
+<body class="home">
+  <header class="header-content">
+    <div class="header-top hidden-sm hidden-xs" id="header-top">
+      <div class="container">
+        <nav class="navbar navbar-inverse header-top__top">
+          <div class="navbar-header">
+            <a class="navbar-brand logo__link" href="index.html">
+              <img class="logo__image logo__image_top" src="assets/img/icons/logo-black.png" alt="Logo Start IT">
+            </a>
+          </div>
+          <div class="nav navbar-nav navbar-right nav-right nav-right--login">
+            <div class="asocials">
+              <!-- starts language -->
+              <div class="lanugage-social-flex">
+                <ul class="asocials__list head__asocials__list">
+                  <li class="asocials__item">
+                    <a class="asocials__link" href="#">
+                      <span class="fa fa-facebook"></span>
+                    </a>
+                  </li>
+                  <li class="asocials__item">
+                    <a class="asocials__link" href="#">
+                      <span class="fa fa-linkedin"></span>
+                    </a>
+                  </li>
+                  <li class="asocials__item">
+                    <a class="asocials__link" href="#">
+                      <span class="fa fa-instagram"></span>
+                    </a>
+                  </li>
+                  <li class="asocials__item">
+                    <a class="asocials__link" href="#">
+                      <span class="fa fa-youtube"></span>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="head-language">
+                  <li>
+                    <a href="#">AZ</a>
+                  </li>
+                  <li class="active">
+                    <a href="#">RU</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="bottom-header hidden-sm hidden-xs" id="scrollspy" data-spy="affix" data-offset-top="112">
+      <div class="container">
+        <div class="logo--menu">
+          <a class="logo__link" href="index.html">
+            <img class="logo__image" src="assets/img/icons/logo-black.png" alt="Logo Start IT">
+          </a>
+        </div>
+        <nav class="menu-main">
+          <ul class="nav navbar-nav menu-main__list ">
+            <li class="menu-main__item">
+              <a class="menu-main__link active" href="index.html">Home page</a>
+            </li>
+            <li class="menu-main__item ">
+              <a class="menu-main__link " href="#">company</a>
+              <div class="dropdown-catagories dropdown-catagories--menu">
+                <ul class="dropdown-catagories__list">
+                  <li class="dropdown-catagories__item ">
+                    <a class="dropdown-catagories__link dropdown-catagories__link--full" href="about-us.html">About</a>
+                  </li>
+                  <li class="dropdown-catagories__item ">
+                    <a class="dropdown-catagories__link dropdown-catagories__link--full" href="achievements.html">Achievements</a>
+                  </li>
+                  <li class="dropdown-catagories__item ">
+                    <a class="dropdown-catagories__link dropdown-catagories__link--full" href="faq.html">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-main__item">
+                <a class="menu-main__link " href="courses.html">course</a>
+            </li>
+            <li class="menu-main__item">
+                <a class="menu-main__link " href="instructors.html">instructors</a>
+            </li>
+            <li class="menu-main__item">
+                <a class="menu-main__link " href="blog.html">blog</a>
+            </li>
+            <li class="menu-main__item">
+              <a class="menu-main__link " href="contact.html">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="header__mobile hidden-lg hidden-md">
+      <div class="header-top">
+        <div class="container">
+          <div class="nav-right--notlogin nav-right--notlogin--mobile pull-right">
+            <div class="asocials">
+              <!-- starts language -->
+              <div class="lanugage-social-flex">
+                <ul class="asocials__list head__asocials__list">
+                  <li class="asocials__item">
+                    <a class="asocials__link" href="#">
+                      <span class="fa fa-facebook"></span>
+                    </a>
+                  </li>
+                  <li class="asocials__item">
+                    <a class="asocials__link" href="#">
+                      <span class="fa fa-linkedin"></span>
+                    </a>
+                  </li>
+                  <li class="asocials__item">
+                    <a class="asocials__link" href="#">
+                      <span class="fa fa-instagram"></span>
+                    </a>
+                  </li>
+                  <li class="asocials__item">
+                    <a class="asocials__link" href="#">
+                      <span class="fa fa-youtube"></span>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="head-language">
+                  <li>
+                    <a href="#">AZ</a>
+                  </li>
+                  <li class="active">
+                    <a href="#">RU</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar" id="header-mobile" data-spy="affix" data-offset-top="75">
+        <div class="container">
+
+          <button class="navbar-toggle nav-icon pull-right collapsed visible-sm visible-xs" id="menu-hamberger" data-toggle="collapse"
+            data-target="#menu-main">
+            <span class="bar"></span>
+          </button>
+          <div class="logo--mobile">
+            <a class="logo__link" href="index.html">
+              <img class="logo__image" src="assets/img/icons/logo-black.png" alt="Logo Start IT">
+            </a>
+          </div>
+        </div>
+        <div class="menu-mobile">
+          <ul class="menu-mobile__list ">
+            <li class="menu-mobile__item">
+              <a class="menu-mobile__link" href="index.html">home</a>
+            </li>
+            <li class="menu-mobile__item">
+              <a class="menu-mobile__link" href="#">company</a>
+              <span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+              <ul class="dropdown-menu dropdown-mobile">
+                <li class="dropdown-mobile__item ">
+                  <a class="dropdown-mobile__link" href="about-us.html">about</a>
+                </li>
+                <li class="dropdown-mobile__item ">
+                  <a class="dropdown-mobile__link" href="achievements.html">Achievements</a>
+                </li>
+                <li class="dropdown-mobile__item ">
+                  <a class="dropdown-mobile__link" href="faq.html">FAQ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-mobile__item">
+              <a class="menu-mobile__link" href="courses.html">course</a>
+            </li>
+            <li class="menu-mobile__item">
+              <a class="menu-mobile__link" href="instructors.html">instructors</a>
+            </li>
+            <li class="menu-mobile__item">
+                <a class="menu-mobile__link" href="blog.html">blog</a>
+              </li>
+            <li class="menu-mobile__item">
+              <a class="menu-mobile__link" href="contact.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="button-default btn-ontop" id="on-top">
+      <span class="glyph-icon flaticon-arrows-5"></span>
+    </div>
+  </header>
+
+  <div class="design-sprint">
+    <div class="container design-sprint__list">
+      <div class="row design-sprint__content">
+        <div class="col-lg-4 col-md-4 col-sm-4 design-sprint__item">
+          <h1 class="design-sprint__item__title">Deep Learning Data Analyst</h1>
+          <p class="design-sprint__item__content">What do you want to learn today? What's your dream job? Discover the program that's right for today</p>
+          <a class="btn button-default design-sprint__item__button" href="courses.html">enroll now</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 design-sprint__item-image">
+          <div class="design-sprint__wapper">
+            <img class="design-sprint__wapper__image" src="assets/img/top-img1.jfif" alt="Product management">
+          </div>
+          <div class="design-sprint__contents">
+            <a class="design-sprint__contents__title" href="course-single.html">product management</a>
+            <a class="design-sprint__contents__link" href="course-single.html">enroll now</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 design-sprint__item-image">
+          <div class="design-sprint__wapper">
+            <img class="design-sprint__wapper__image" src="assets/img/top-img3.jfif" alt="Deep learning data analyst">
+          </div>
+          <div class="design-sprint__contents">
+            <a class="design-sprint__contents__title" href="course-single.html">deep learning data analyst</a>
+            <a class="design-sprint__contents__link" href="course-single.html">enroll now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="spy list-course mt60" id="exploer">
+    <div class="container">
+      <div class="list-course__header">
+        <h2 class="list-course__header__title wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.002s">top rated courses</h2>
+        <div class="list-course__view-more">
+          <a href="courses.html" class="list-course__header__btn">
+            <span class="list-course__header__text">view more</span>
+          </a>
+          <div class="list-course__header__icon list-course-icon-arrow-special">
+            <span class="glyph-icon flaticon-arrows-3 list-course__header__icon-arrow"></span>
+          </div>
+        </div>
+      </div>
+      <div class="list-course__gird">
+        <div class="course specializations">
+          <div class="special courses__list ">
+              <div class="undefined courses__item">
+                  <div class="courses__item">
+                      <div class="courses__wapper">
+                        <div class="col-equal courses__top">
+                          <div class="courses__top__wapper">
+                            <a href="course-single.html">
+                                <img class="courses__top__image" src="https://images.unsplash.com/photo-1554774853-719586f82d77?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                            </a>
+                          </div>
+                          <div class="courses__top__bt-seller">best seller</div>
+                        </div>
+                        <div class="col-equal courses__content">
+                          <a class="courses__content__title" href="course-single.html">Design effective advertising pointers</a>
+                          <div class="course_info">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde eius quae at eligendi fuga possimus
+                          </div>
+                          <div class="courses__content__info">
+                            <div class="courses__col-right courses__content__price">110 <span>₼</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="undefined courses__item">
+                  <div class="courses__item">
+                      <div class="courses__wapper">
+                        <div class="col-equal courses__top">
+                          <div class="courses__top__wapper">
+                            <a href="course-single.html">
+                                <img class="courses__top__image" src="https://images.unsplash.com/photo-1554774853-719586f82d77?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                            </a>
+                          </div>
+                          <div class="courses__top__bt-seller">best seller</div>
+                        </div>
+                        <div class="col-equal courses__content">
+                          <a class="courses__content__title" href="course-single.html">Design effective advertising pointers</a>
+                          <div class="course_info">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde eius quae at eligendi fuga possimus
+                          </div>
+                          <div class="courses__content__info">
+                            <div class="courses__col-right courses__content__price">110 <span>₼</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="undefined courses__item">
+                  <div class="courses__item">
+                      <div class="courses__wapper">
+                        <div class="col-equal courses__top">
+                          <div class="courses__top__wapper">
+                            <a href="course-single.html">
+                                <img class="courses__top__image" src="https://images.unsplash.com/photo-1554774853-719586f82d77?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                            </a>
+                          </div>
+                          <div class="courses__top__bt-seller">best seller</div>
+                        </div>
+                        <div class="col-equal courses__content">
+                          <a class="courses__content__title" href="course-single.html">Design effective advertising pointers</a>
+                          <div class="course_info">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde eius quae at eligendi fuga possimus
+                          </div>
+                          <div class="courses__content__info">
+                            <div class="courses__col-right courses__content__price">110 <span>₼</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="undefined courses__item">
+                  <div class="courses__item">
+                      <div class="courses__wapper">
+                        <div class="col-equal courses__top">
+                          <div class="courses__top__wapper">
+                            <a href="course-single.html">
+                                <img class="courses__top__image" src="https://images.unsplash.com/photo-1554774853-719586f82d77?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                            </a>
+                          </div>
+                          <div class="courses__top__bt-seller">best seller</div>
+                        </div>
+                        <div class="col-equal courses__content">
+                          <a class="courses__content__title" href="course-single.html">Design effective advertising pointers</a>
+                          <div class="course_info">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde eius quae at eligendi fuga possimus
+                          </div>
+                          <div class="courses__content__info">
+                            <div class="courses__col-right courses__content__price">110 <span>₼</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="undefined courses__item">
+                  <div class="courses__item">
+                      <div class="courses__wapper">
+                        <div class="col-equal courses__top">
+                          <div class="courses__top__wapper">
+                            <a href="course-single.html">
+                                <img class="courses__top__image" src="https://images.unsplash.com/photo-1554774853-719586f82d77?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                            </a>
+                          </div>
+                          <div class="courses__top__bt-seller">best seller</div>
+                        </div>
+                        <div class="col-equal courses__content">
+                          <a class="courses__content__title" href="course-single.html">Design effective advertising pointers</a>
+                          <div class="course_info">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde eius quae at eligendi fuga possimus
+                          </div>
+                          <div class="courses__content__info">
+                            <div class="courses__col-right courses__content__price">110 <span>₼</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            <div class="undefined courses__item">
+                <div class="courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper">
+                          <a href="course-single.html">
+                              <img class="courses__top__image" src="https://images.unsplash.com/photo-1554774853-719586f82d77?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                          </a>
+                        </div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                      </div>
+                      <div class="col-equal courses__content">
+                        <a class="courses__content__title" href="course-single.html">Design effective advertising pointers</a>
+                        <div class="course_info">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde eius quae at eligendi fuga possimus
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-right courses__content__price">110 <span>₼</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="best-features event spy" id="partner">
+    <div class="container">
+      <div class="list-course__header">
+        <h2 class="list-course__header__title mb40"> our best features</h2>
+      </div>
+      <div class="row">
+        <div class="item">
+          <div class="col-lg-6 col-md-6 item__left wow zoomInLeft">
+            <h3 class="item__left__title">Suitable Course For Your Goal</h3>
+            <p class="item__left__content">
+              These courses are designed exclusively for the rich and want to start a new life. A career that keeps pace with the high
+              salary you deserve, we own the learning paths that are designed specifically for those with professional ambition
+              to create a source of high-minded & skilled workforce.
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 _custom">
+            <div class="item__right__image-left_custom">
+              <img class="item__right__image_custom" src="https://images.unsplash.com/photo-1542744094-24638eff58bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+            <div class="col-lg-6 col-md-6 item__left wow zoomInLeft">
+              <h3 class="item__left__title">Suitable Course For Your Goal</h3>
+              <p class="item__left__content">
+                These courses are designed exclusively for the rich and want to start a new life. A career that keeps pace with the high
+                salary you deserve, we own the learning paths that are designed specifically for those with professional ambition
+                to create a source of high-minded & skilled workforce.
+              </p>
+            </div>
+            <div class="col-lg-6 col-md-6 _custom">
+              <div class="item__right__image-left_custom">
+                <img class="item__right__image_custom" src="https://images.unsplash.com/photo-1532619187608-e5375cab36aa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+              <div class="col-lg-6 col-md-6 item__left wow zoomInLeft">
+                <h3 class="item__left__title">Suitable Course For Your Goal</h3>
+                <p class="item__left__content">
+                  These courses are designed exclusively for the rich and want to start a new life. A career that keeps pace with the high
+                  salary you deserve, we own the learning paths that are designed specifically for those with professional ambition
+                  to create a source of high-minded & skilled workforce.
+                </p>
+              </div>
+              <div class="col-lg-6 col-md-6 _custom">
+                <div class="item__right__image-left_custom">
+                  <img class="item__right__image_custom" src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="list-course spy" id="membership">
+    <div class="container">
+      <div class="list-course__header">
+        <h2 class="list-course__header__title wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.002s"> Recent Blog</h2>
+        <div class="list-course__view-more">
+          <a href="blog.html" class="list-course__header__btn">
+            <span class="list-course__header__text">view more</span>
+          </a>
+          <div class="list-course__header__icon list-course-icon-arrow-recent-blog">
+            <span class="glyph-icon flaticon-arrows-3 list-course__header__icon-arrow"></span>
+          </div>
+        </div>
+      </div>
+      <div class="blog">
+        <div class="blog-col">
+          <div class="blog-col__item">
+                    <div class="blog__item__left"><a class="blog__item__link" href="#"><img class="blog__item__image" src="https://images.unsplash.com/photo-1532618793091-ec5fe9635fbd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt=""></a></div>
+                    <div class="blog__item__right">
+                      <div class="blog__item__date">June 25, 2018</div><a class="blog__item__title" href="blog-single.html">Improve Your Writing Skills with 6 Free Online Lessons</a>
+                      <div class="blog__item__sub">Donec vel libero ullamcorper, faucibus augue auctor, imperdiet diam. Duis quis nibh eget urna convallis blandit. Fusce Fusce iaculis purus vita iaculis purus vitae…</div>
+                    </div>
+                  </div>
+        </div>
+        <div class="blog-col">
+            <div class="blog-col__item">
+                      <div class="blog__item__left"><a class="blog__item__link" href="#"><img class="blog__item__image" src="https://images.unsplash.com/photo-1532618793091-ec5fe9635fbd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt=""></a></div>
+                      <div class="blog__item__right">
+                        <div class="blog__item__date">June 25, 2018</div><a class="blog__item__title" href="blog-single.html">Improve Your Writing Skills with 6 Free Online Lessons</a>
+                        <div class="blog__item__sub">Donec vel libero ullamcorper, faucibus augue auctor, imperdiet diam. Duis quis nibh eget urna convallis blandit. Fusce Fusce iaculis purus vita iaculis purus vitae…</div>
+                      </div>
+                    </div>
+          </div>
+          <div class="blog-col">
+              <div class="blog-col__item">
+                        <div class="blog__item__left"><a class="blog__item__link" href="#"><img class="blog__item__image" src="https://images.unsplash.com/photo-1532618793091-ec5fe9635fbd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt=""></a></div>
+                        <div class="blog__item__right">
+                          <div class="blog__item__date">June 25, 2018</div><a class="blog__item__title" href="blog-single.html">Improve Your Writing Skills with 6 Free Online Lessons</a>
+                          <div class="blog__item__sub">Donec vel libero ullamcorper, faucibus augue auctor, imperdiet diam. Duis quis nibh eget urna convallis blandit. Fusce Fusce iaculis purus vita iaculis purus vitae…</div>
+                        </div>
+                      </div>
+            </div>
+            <div class="blog-col">
+                <div class="blog-col__item">
+                          <div class="blog__item__left"><a class="blog__item__link" href="#"><img class="blog__item__image" src="https://images.unsplash.com/photo-1532618793091-ec5fe9635fbd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt=""></a></div>
+                          <div class="blog__item__right">
+                            <div class="blog__item__date">June 25, 2018</div><a class="blog__item__title" href="blog-single.html">Improve Your Writing Skills with 6 Free Online Lessons</a>
+                            <div class="blog__item__sub">Donec vel libero ullamcorper, faucibus augue auctor, imperdiet diam. Duis quis nibh eget urna convallis blandit. Fusce Fusce iaculis purus vita iaculis purus vitae…</div>
+                          </div>
+                        </div>
+              </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-subs spy" id="forum">
+    <div class="container">
+      <div class="row form-subs__content">
+        <div class="col-lg-6 col-md-6 col-sm-12 column-item">
+          <h2 class="form-subs__title wow fadeIn" data-wow-duration="1s" data-wow-delay="0.002s"> Subscribe Our Newsletter</h2>
+          <p class="form-subs__sub">For new awesome courses & special promotion campaign!</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 column-item">
+          <form class="form-subs__form">
+            <input class="form-subs__input" type="text" placeholder="Your email...">
+            <button class="btn btn-default button-default form-subs__button" type="submit">enroll now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="testimotials spy" id="elements">
+    <div class="container">
+      <div class="list-course__header">
+        <h2 class="list-course__header__title wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.002s"> Testimotials</h2>
+      </div>
+      <div class="row">
+        <div class="testimotials__list">
+          <div class="testimotials__item">
+            <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+            <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+            <div class="testimotials__item__avatar">
+              <img class="testimotials__item__image" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="2">
+            </div>
+            <div class="testimotials__item__user">Jonathan Hampson</div>
+            <div class="testimotials__item__prof">Amazon Professor</div>
+          </div>
+          <div class="testimotials__item">
+            <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+            <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+            <div class="testimotials__item__avatar">
+              <img class="testimotials__item__image" src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="3">
+            </div>
+            <div class="testimotials__item__user">Jonathan Hampson</div>
+            <div class="testimotials__item__prof">Amazon Professor</div>
+          </div>
+          <div class="testimotials__item">
+            <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+            <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+            <div class="testimotials__item__avatar">
+              <img class="testimotials__item__image" src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="4">
+            </div>
+            <div class="testimotials__item__user">Jonathan Hampson</div>
+            <div class="testimotials__item__prof">Amazon Professor</div>
+          </div>
+          <div class="testimotials__item">
+            <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+            <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+            <div class="testimotials__item__avatar">
+              <img class="testimotials__item__image" src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="5">
+            </div>
+            <div class="testimotials__item__user">Jonathan Hampson</div>
+            <div class="testimotials__item__prof">Amazon Professor</div>
+          </div>
+          <div class="testimotials__item">
+            <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+            <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+            <div class="testimotials__item__avatar">
+              <img class="testimotials__item__image" src="https://images.unsplash.com/photo-1548449112-96a38a643324?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="6">
+            </div>
+            <div class="testimotials__item__user">Jonathan Hampson</div>
+            <div class="testimotials__item__prof">Amazon Professor</div>
+          </div>
+          <div class="testimotials__item">
+            <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+            <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+            <div class="testimotials__item__avatar">
+              <img class="testimotials__item__image" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="7">
+            </div>
+            <div class="testimotials__item__user">Jonathan Hampson</div>
+            <div class="testimotials__item__prof">Amazon Professor</div>
+          </div>
+          <div class="testimotials__item">
+            <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+            <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+            <div class="testimotials__item__avatar">
+              <img class="testimotials__item__image" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="8">
+            </div>
+            <div class="testimotials__item__user">Jonathan Hampson</div>
+            <div class="testimotials__item__prof">Amazon Professor</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row footer__content">
+        <div class="col-lg-5 col-md-5">
+          <a class="logo__link footer__logo" href="index.html">
+            <img class="logo__image logo__image__footer" src="assets/img/icons/logo-white.png" alt="Logo Start IT">
+          </a>
+          <p class="footer__item__sub">
+            Education, Start IT.
+            <br /> Baku | Azerbaijan
+          </p>
+          <div class="asocials">
+            <ul class="asocials__list">
+              <li class="asocials__item">
+                <a class="asocials__link" href="#">
+                  <span class="fa fa-facebook"></span>
+                </a>
+              </li>
+              <li class="asocials__item">
+                <a class="asocials__link" href="#">
+                  <span class="fa fa-linkedin"></span>
+                </a>
+              </li>
+              <li class="asocials__item">
+                <a class="asocials__link" href="#">
+                  <span class="fa fa-instagram"></span>
+                </a>
+              </li>
+              <li class="asocials__item">
+                <a class="asocials__link" href="#">
+                  <span class="fa fa-youtube"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-7 footer__content__right">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 footer__item">
+              <h3 class="footer__item__title">Company</h3>
+              <ul class="footer-link__list">
+                <li class="footer-link__item">
+                  <a href="index.html" class="footer-link__link ">Home</a>
+                </li>
+                <li class="footer-link__item">
+                  <a href="about-us.html" class="footer-link__link ">About</a>
+                </li>
+                <li class="footer-link__item">
+                  <a href="achievements.html" class="footer-link__link ">Achievements</a>
+                </li>
+                <li class="footer-link__item">
+                  <a href="faq.html" class="footer-link__link ">Faq</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 footer__item">
+              <h3 class="footer__item__title">more</h3>
+              <ul class="footer-link__list">
+                <li class="footer-link__item">
+                  <a href="courses.html" class="footer-link__link ">Course</a>
+                </li>
+                <li class="footer-link__item">
+                  <a href="instructors.html" class="footer-link__link ">Instructors</a>
+                </li>
+                <li class="footer-link__item">
+                  <a href="blog.html" class="footer-link__link ">Blog</a>
+                </li>
+                <li class="footer-link__item">
+                  <a href="contact.html" class="footer-link__link ">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 footer__item">
+              <h3 class="footer__item__title">get in touch</h3>
+              <div class="footer-link__link footer-link__link--contact">Contact us if you need help with anything</div>
+              <div class="footer-link__link footer-link__link--phone">(+ 994) 786 45 32</div>
+              <div class="footer-link__link footer-link__link--phone">(+ 994) 976 23 32</div>
+              <div class="footer-link__link footer-link__link--phone">help@startIT.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">&copy; 2020 NuriyyaRuslanova | Start IT</div>
+    </div>
+  </footer>
+  <script src="assets/lib/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/lib/js/bootstrap.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/jquery-matchHeight.js"></script>
+  <script src="assets/js/slicks.js"></script>
+  <script src="assets/js/home.js"></script>
+  <script src="assets/js/script.js"></script>
+  <div class="positionfixed"></div>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjx4YG7E7thIRo6L6wnhcATgWXf8ldHOc&amp;callback"></script>
+</body>
+
+</html>
